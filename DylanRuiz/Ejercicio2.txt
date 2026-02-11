@@ -1,0 +1,27 @@
+Ejercicio 2
+
+CMS que almacena artículos con metadatos variables, versiones y estructuras no uniformes.
+
+Tipo de base de datos: Base de datos documental (NoSQL)
+
+Por qué:
+
+Los artículos pueden tener:
+
+Metadatos distintos
+
+Estructuras variables
+
+Versiones diferentes
+
+Esto implica datos semiestructurados o cambiantes, uno de los motivos por los que surge NoSQL.
+
+Las bases documentales (como MongoDB) permiten guardar documentos JSON con estructuras flexibles.
+
+Una base relacional obligaría a:
+
+Crear muchas tablas adicionales
+
+Usar columnas opcionales o estructuras poco eficientes
+
+Aquí se prioriza flexibilidad y escalabilidad (modelo BASE).

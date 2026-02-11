@@ -1,0 +1,31 @@
+Ejercicio 3
+
+Sistema de métricas de servidores con millones de registros indexados por fecha y hora.
+
+Tipo de base de datos: Base de datos orientada a series temporales (Time Series) o clave-valor optimizada para tiempo (NoSQL)
+
+Por qué:
+
+Se manejan millones de registros
+
+Están organizados por fecha y hora
+
+Se necesita alta velocidad de escritura
+
+Escenario típico de monitoreo y logging
+
+Las bases de datos de series temporales están optimizadas para:
+
+Grandes volúmenes de datos
+
+Consultas por rangos de tiempo
+
+Alta escalabilidad
+
+Aquí se prioriza:
+
+Disponibilidad
+
+Escalabilidad
+
+Partition Tolerance (según CAP)

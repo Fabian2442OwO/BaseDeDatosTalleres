@@ -1,0 +1,24 @@
+Ejercicio 1
+
+Red de transporte donde se analizan rutas óptimas, conexiones entre nodos y caminos alternativos.
+
+Tipo de base de datos: Base de datos de grafos (NoSQL)
+
+Por qué:
+
+El problema está basado en nodos y relaciones (estaciones, conexiones, caminos).
+
+Se necesita analizar:
+
+Rutas óptimas
+
+Caminos alternativos
+
+Conexiones entre puntos
+
+Las bases de datos de grafos están diseñadas específicamente para modelar relaciones complejas.
+
+Permiten recorrer relaciones de forma eficiente (ej: algoritmos de camino más corto).
+
+Una base relacional podría hacerlo, pero sería menos eficiente y más compleja de consultar 
+(muchos JOIN).
